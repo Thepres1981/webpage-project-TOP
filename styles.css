@@ -1,0 +1,58 @@
+/* styles */
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.logo {
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+.link {
+    padding: 10px 15px;
+    text-decoration: none;
+
+}
+
+.title {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    font-size: 48px;
+    font-weight: 900;
+    width: 300px;
+}
+
+.container {
+    display: flex;
+}
+
+.title {
+    padding: 100px;   
+}
+
+.subtext {
+    width: 375px;
+}
+
+button {
+    width: 80px;
+}
+
+.hero {      
+    align-content: center;    
+}
