@@ -9,9 +9,12 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 100px;
+    background-color: #1f2937;
 }
 
 .logo {
+    font-size: 24px;
+    color: #f9faf8;
 
 }
 
@@ -23,6 +26,8 @@ body {
 .link {
     padding: 10px 15px;
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 
 }
 
@@ -35,24 +40,46 @@ body {
     font-size: 48px;
     font-weight: 900;
     width: 300px;
+    color: #f9faf8;
 }
 
 .container {
     display: flex;
+    background-color: #1f2937;
 }
 
 .title {
-    padding: 100px;   
+    padding: 100px;
+     
 }
 
 .subtext {
     width: 375px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 button {
     width: 80px;
+    background-color: #3882f6;
+    border-radius: 4px;
+    border: 0;
+    padding: 4px;
+    color: #f9faf8;
 }
 
-.hero {      
-    align-content: center;    
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 150px;
+    background-color: gray;
+
 }
+
+.text-box {
+    
+
+}
+
